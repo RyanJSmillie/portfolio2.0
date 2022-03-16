@@ -141,10 +141,6 @@
     justify-content: center;
 }
 
-.pictures-child {
-
-}
-
 .image{
     width: 100%;
     height: auto;
@@ -166,7 +162,7 @@
 }
 
 h1 {
-    color: rgb(151, 151, 151);
+    color: rgb(56, 140, 146);
     font-size: 7vh;
     text-decoration: line-through;
     letter-spacing: 5px;
@@ -183,6 +179,7 @@ h1 {
 h2 {
     font-size: 2vh;
     font-weight:bold;
+    text-align: center;
 }
 
 h3 {
@@ -191,7 +188,33 @@ h3 {
 }
 
 p {
-    font-size: 1.5vh
+    font-size: 1.75vh;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(56, 140, 146);
+    text-decoration: line-through;
+}
+
+a:hover {
+    color: rgb(56, 140, 146);
+}
+
+a {
+    color: black;
+}
+
+img {
+    border-radius: 25px;
 }
 
 /* @media screen and (max-width: 600px) {
