@@ -3,13 +3,10 @@
     grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: auto auto auto auto;
     gap: 1em;
-    /* border: 1px solid;
-    border-color: grey; */
     font-size: 10px;
 }
 
 #logo{
-    /* background-color: #eee; */
     height: auto;
     padding-top: 30px;
     grid-row: 1/2;
@@ -20,7 +17,6 @@
 }
 
 #dark-mode{
-    /* background-color: #eee; */
     font-size: 1.5em;
     height: 50%;
     grid-row: 1/2;
@@ -91,7 +87,6 @@
   }
 
 #nav{
-    /* background-color: #eee; */
     text-align: end;
     height: 50px;
     grid-row: 1/2;
@@ -102,7 +97,6 @@
 }
 
 #body{
-    /* background-color: #eee; */
     grid-row: 2/3;
     grid-column: 2/3;
     padding-left: 1em;
@@ -115,14 +109,12 @@
     grid-column: 2/3;
     text-align: center;
     vertical-align: bottom;
-    /* background-color: #eee; */
 }
 
 #copyright{
     grid-row: 4/5;
     grid-column: 2/3;
     text-align: center
-    /* background-color: #eee; */
 }
 
 .profile-pic{
@@ -168,11 +160,6 @@ h1 {
     letter-spacing: 5px;
     text-align: center;
     vertical-align: middle;
-    /* border: 8px solid rgb(151, 151, 151);
-    margin: 10px;
-    padding: 30px;
-    width: 60px;
-    height: 20px; */
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -216,8 +203,6 @@ a {
 img {
     border-radius: 25px;
 }
-
-
 
 /* @media screen and (max-width: 600px) {
     .image{
